@@ -1,6 +1,6 @@
 # LeaveWork
 
-> 퇴근시간 알려달라고
+> 퇴근까지 몇 시간 남았는지 알고싶어서 만들었습니다.
 
 ## Install
 
@@ -13,7 +13,7 @@ $ git clone this repo
 2. 권한 부여
 
 ```
-$ chmod 777 date.sh
+$ chmod 777 lw.sh
 ```
 
 3. alias 등록
