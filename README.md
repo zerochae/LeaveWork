@@ -5,6 +5,7 @@
 ## Install
 
 1. 프로젝트 클론
+
 ```
 git clone this repo
 ```
@@ -18,19 +19,23 @@ chmod 777 date.sh
 3. alias 등록
 
 - 클론한 repo에서 `pwd` 입력
+
   ```sh
   vim ~/.zshrc
   ```
 
   ```vim
-  alias lw {repo path} --> pwd 복붙하기 
-  ```
+  alias lw {repo path(pwd 복붙하기)}.date.sh
 
-  ```sh
-  lw 
+  ex)
+  alias lw /Users/kwon-gray/Documents/workspace/LeaveWork/date.sh
   ```
 
 ## Usage
+
+```sh
+lw
+```
 
 1. 출근 전 ( 현재시간 < 10:00 )
 
