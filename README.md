@@ -25,10 +25,10 @@ $ vim ~/.zshrc
 ```
 
 ```vim
-$ alias lw {repo path(pwd 복붙하기)}.date.sh
+$ alias lw {repo path(pwd 복붙하기)}.lw.sh
 
 ex)
-$ alias lw /Users/kwon-gray/Documents/workspace/LeaveWork/date.sh
+$ alias lw /Users/kwon-gray/Documents/workspace/LeaveWork/lw.sh
 ```
 
 ## Usage
