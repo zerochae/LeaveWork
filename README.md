@@ -20,16 +20,16 @@ $ chmod 777 date.sh
 
 - 클론한 repo에서 `pwd` 입력
 
-  ```sh
-  $ vim ~/.zshrc
-  ```
+```sh
+$ vim ~/.zshrc
+```
 
-  ```vim
-  $ alias lw {repo path(pwd 복붙하기)}.date.sh
+```vim
+$ alias lw {repo path(pwd 복붙하기)}.date.sh
 
-  ex)
-  $ alias lw /Users/kwon-gray/Documents/workspace/LeaveWork/date.sh
-  ```
+ex)
+$ alias lw /Users/kwon-gray/Documents/workspace/LeaveWork/date.sh
+```
 
 ## Usage
 
