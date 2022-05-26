@@ -7,13 +7,13 @@
 1. 프로젝트 클론
 
 ```
-git clone this repo
+$ git clone this repo
 ```
 
 2. 권한 부여
 
 ```
-chmod 777 date.sh
+$ chmod 777 date.sh
 ```
 
 3. alias 등록
@@ -21,14 +21,14 @@ chmod 777 date.sh
 - 클론한 repo에서 `pwd` 입력
 
   ```sh
-  vim ~/.zshrc
+  $ vim ~/.zshrc
   ```
 
   ```vim
-  alias lw {repo path(pwd 복붙하기)}.date.sh
+  $ alias lw {repo path(pwd 복붙하기)}.date.sh
 
   ex)
-  alias lw /Users/kwon-gray/Documents/workspace/LeaveWork/date.sh
+  $ alias lw /Users/kwon-gray/Documents/workspace/LeaveWork/date.sh
   ```
 
 ## Usage
@@ -39,9 +39,9 @@ chmod 777 date.sh
   - 본인의 시간에 맞게 조정(1시간에 3600씩 더하거나 빼기)
 
 ```sh
-lw
+$ lw
 ```
 
 1. 출근 전 ( 현재시간 < 10:00 )
 
-<img alt="before" src="https://user-images.githubusercontent.com/84373490/170543058-b5e26192-26e3-4463-96c9-4f9ba33b851a.png">
+<img width="350" alt="before-work" src="https://user-images.githubusercontent.com/84373490/170549682-39479466-1436-4a7a-bb6c-18b8cacaaed3.png">
