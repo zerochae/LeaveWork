@@ -33,6 +33,11 @@ chmod 777 date.sh
 
 ## Usage
 
+- default param
+  - 출근 시간(go_work): 36000(10:00)
+  - 퇴근 시간(leave_work): 68400(19:00)
+  - 본인의 시간에 맞게 조정(1시간에 3600씩 더하거나 빼기)
+
 ```sh
 lw
 ```
