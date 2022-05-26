@@ -33,10 +33,11 @@ current_time=$(($current_time_hour + $current_time_min + $current_sec))
 # test_time=$(($test_time_hour + $test_time_min + $test_time_sec))
 # echo ${test_time}
 
+# 현재 시간 출력
+echo :::🕰 ::: $(date "+%Y/%m/%d %H:%M:%S")
+
 # 남은 시간 계산
 remain_time=$(($leave_work - $current_time))
-
-echo :::🕰 ::: $(date "+%Y/%m/%d %H:%M:%S")
 
 remain_time_hour=$(($remain_time / 3600))
 diff=$(($remain_time_hour * 3600))
@@ -46,8 +47,10 @@ diff=$(($remain_time_min * 60))
 remain_time_sec=$(($remain_time - $diff))
 
 if [ ${current_time} -lt ${go_work} ]; then
+    # 출근 전
     echo :::😪::: Sleeping...
 elif [ ${current_time} -gt ${leave_work} ]; then
+    # 근무 시간
     echo :::💻::: Work...
     if [ ${remain_time_min} -lt 10 ]; then
         remain_time_min="0${remain_time_min}"
@@ -57,5 +60,6 @@ elif [ ${current_time} -gt ${leave_work} ]; then
     fi
     echo :::😵::: 퇴근까지 ${remain_time_hour}시간 ${remain_time_min}분 ${remain_time_sec}초 남았어요.
 elif [ ${current_time} -lt ${leave_work} ]; then
+    # 퇴근 후
     echo :::🎉::: Leave Work
 fi
