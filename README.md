@@ -13,7 +13,7 @@ $ git clone this repo
 2. 권한 부여
 
 ```
-$ chmod 777 date.sh
+$ chmod 777 lw.sh
 ```
 
 3. alias 등록
