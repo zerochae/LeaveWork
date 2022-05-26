@@ -27,8 +27,8 @@ $ vim ~/.zshrc
 ```vim
 $ alias lw {repo path(pwd 복붙하기)}.lw.sh
 
-ex)
-$ alias lw /Users/kwon-gray/Documents/workspace/LeaveWork/lw.sh
+" example
+" alias lw /Users/kwon-gray/Documents/workspace/LeaveWork/lw.sh
 ```
 
 ## Usage
