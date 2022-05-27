@@ -13,7 +13,7 @@ $ git clone this repo
 2. 권한 부여
 
 ```
-$ sudo chmod 777 ./lw.sh
+$ sudo chmod 700 ./lw.sh
 ```
 
 3. alias 등록
