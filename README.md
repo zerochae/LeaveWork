@@ -47,7 +47,7 @@ $ lw
 <img width="350" alt="before-work" src="https://user-images.githubusercontent.com/84373490/170549682-39479466-1436-4a7a-bb6c-18b8cacaaed3.png">
 
 2. 근무 중 ( 현재시간 < 퇴근시간 )
-3. 
+
 <img width="350" alt="스크린샷 2022-05-27 10 17 06" src="https://user-images.githubusercontent.com/84373490/170609205-29d05650-de14-489c-9448-0aa8471e5d41.png">
 
 
