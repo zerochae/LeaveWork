@@ -49,7 +49,7 @@ remain_time_sec=$(($remain_time - $diff))
 if [ ${current_time} -lt ${go_work} ]; then
     # 출근 전
     echo :::😪::: Sleeping...
-elif [ ${current_time} -gt ${leave_work} ]; then
+elif [ ${current_time} -lt ${leave_work} ]; then
     # 근무 시간
     echo :::💻::: Work...
     if [ ${remain_time_min} -lt 10 ]; then
@@ -59,7 +59,7 @@ elif [ ${current_time} -gt ${leave_work} ]; then
         remain_time_sec="0${remain_time_sec}"
     fi
     echo :::😵::: 퇴근까지 ${remain_time_hour}시간 ${remain_time_min}분 ${remain_time_sec}초 남았어요.
-elif [ ${current_time} -lt ${leave_work} ]; then
+elif [ ${current_time} -gt ${leave_work} ]; then
     # 퇴근 후
     echo :::🎉::: Leave Work
 fi
